@@ -1,0 +1,24 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    height: 1000px;
+}
+
+:root {
+ --text-color: #ffffff;
+}
+
+nav {
+    background-color: #ccc;
+    padding: 10px;
+    color: var(--text-color);
+    position: sticky;
+    top: 10px;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
